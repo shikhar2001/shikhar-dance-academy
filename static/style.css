@@ -6,12 +6,17 @@
 }
 
 #logo {
-    height: 5px;
+    height: 4px;
     width: 8px;
     filter: invert(1);
     margin-right: 55px;
+    padding-top: 7px;
 }
 
+#navbar{
+    margin-top: 0px;
+    background-color: black;
+}
 #xyz {
     /* position: fixed; */
     display: flex;
@@ -19,6 +24,7 @@
     flex-direction: row;
     background-color: black;
     width: 100vw;
+    margin-left: 60px;
 }
 
 #navbar ul li {
