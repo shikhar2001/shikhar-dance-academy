@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/contact.css">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-    <title>Contact Us</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+  link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+  <script src="../static/script.js">
+  </script>
+  <title>Contact Us</title>
 </head>
+
 <body>
-    <nav id="navbar">
-        <ul>
-          <div id="logo"><img src="../static/logo.png" alt="SDA" height="60px" width="70px" style="background-color: black;"></div>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/info">Class Info</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-          </ul>
-    </nav>
-    <br>
-    <h3>
-       fd Register Here
-    </h3>
-    <form action="" method="post" id="form">
-      <label for="name">Name :
+  <nav id="navbar">
+    <div id="logo"><img src="../static/logo.png" alt="SDA" height="50px" width="70px" style="background-color: black;">
+    </div>
+    <div class="toggle">
+      <i class="fa fa-bars" aria-hidden="true" onclick="lovely()"></i>
+    </div>
+    <ul id="xyz">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/info">Class Info</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  <br>
+  <h3>
+    fd Register Here
+  </h3>
+  <form action="" method="post" id="form">
+    <label for="name">Name :
       <input type="text" placeholder="Enter Your Name" name="name" id="name" required>
-      </label>
-      <label for="dob">Dob :
-        <input type="date" name="dob" id="dob" placeholder="29-09-2001" required>
-      </label>
-      <label for="password">Password :
-        <input type="password" name="password" id="password" placeholder="Enter your password" required>
-      </label>
-      <label for="email">Email :
-        <input type="email" name="email" id="email" placeholder="abcd@gmail.com" required>
-      </label>
-      <label for="phone">Phone No :
-        <input type="number" name="phone" id="phone" placeholder="7879072257" required>
-      </label>
-    </form>
-    <footer id="footer">© 2019-2020 Shikhar Dance Academy</footer>
-    <script src="../static/script.js">
-    </script>
+    </label>
+    <label for="dob">Dob :
+      <input type="date" name="dob" id="dob" placeholder="29-09-2001" required>
+    </label>
+    <label for="password">Password :
+      <input type="password" name="password" id="password" placeholder="Enter your password" required>
+    </label>
+    <label for="email">Email :
+      <input type="email" name="email" id="email" placeholder="abcd@gmail.com" required>
+    </label>
+    <label for="phone">Phone No :
+      <input type="number" name="phone" id="phone" placeholder="7879072257" required>
+    </label>
+  </form>
+  <footer id="footer">© 2019-2020 Shikhar Dance Academy</footer>
 </body>
+
 </html>
