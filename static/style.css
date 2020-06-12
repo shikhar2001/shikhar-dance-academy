@@ -104,10 +104,10 @@
 #sponsorssection {
     display: flex;
     flex-direction: column;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1700px;
+    /* background-position: center center;
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* height: 1700px; */
     justify-content: center;
     align-items: center;
 
@@ -154,6 +154,31 @@
     color: rgb(12, 223, 12);
     padding-bottom: 5px;
 }
+img[alt ="skype"]{
+    width: 40%;
+    height: 20%;
+}
+img[alt ="google"]{
+    width: 40%;
+    height: 30%;
+}
+img[alt ="microsoft"]{
+    width: 35%;
+    height: 40%;
+}
+img[alt ="apple"]{
+    width: 15%;
+    height: 15%;
+}
+img[alt ="Swiggy"]{
+    width: 45%;
+    height: 45%;
+}
+img[alt ="Park Avenue"]{
+    width: 40%;
+    height: 30%;
+}
+
 body::-webkit-scrollbar {
     display: none;
   }
