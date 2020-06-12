@@ -77,18 +77,17 @@
 }
 #content{
     margin-top: 50px;
-    padding: 0px 100px 100px 100px;
+    padding: 0px 10vw 10vw 10vw;
     color: black;
-    font-size: 1.75rem;
+    font-size: 2vw;
     font-family: cursive;
 }
-h3{
-    margin-top: 100px;
-    margin-left: 30vw;
-    padding: 20px 100px 0px 100px;
+#title{
+    justify-content: center;
+    text-align: center;
     color: black;
-    font-size: 5rem;
     font-family: 'Pacifico', cursive;
+    font-size: 6vw;
 }
 body::-webkit-scrollbar {
     display: none;
