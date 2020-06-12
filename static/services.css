@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* color: white */
+    font-family: 'Baloo Paaji 2', cursive;
 }
 #logo {
     height: 4px;
@@ -66,29 +66,32 @@
         display: block;
         text-align: center;
     }
+    #content{
+        margin: 0px;
+        padding: 0px 0vw 2vw 0vw;
+        color: black;
+        font-size: 1.5rem;
+    }
 }
 
 #footer{
     background-color: black;
     height: 30px;
-    font-family: cursive;
     color: white;
     text-align: center ;
 }
 #content{
     margin-top: 50px;
-    padding: 0px 100px 100px 100px;
+    padding: 0px 10vw 10vw 10vw;
     color: black;
     font-size: 1.75rem;
-    font-family: cursive;
 }
-h3{
-    margin-top: 100px;
-    margin-left: 27vw;
-    padding: 20px 100px 0px 100px;
+#title{
+    justify-content: center;
+    text-align: center;
     color: black;
-    font-size: 5rem;
     font-family: 'Pacifico', cursive;
+    font-size: 6vw;
 }
 body::-webkit-scrollbar {
     display: none;
