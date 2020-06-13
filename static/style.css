@@ -16,6 +16,8 @@
 #navbar{
     margin-top: 0px;
     background-color: black;
+    position: fixed;
+    width: 100vw;
 }
 #xyz {
     display: flex;
@@ -52,29 +54,12 @@
     font-size: 30px;
     display: none;
 }
-
-@media(max-width:768px) {
-    .toggle {
-        display: block;
-    }
-
-    #xyz {
-        flex-direction: column;
-        display: none;
-    }
-
-    #navbar ul li {
-        display: block;
-        text-align: center;
-    }
-}
-
 #introsection::before {
     position: absolute;
     content: "";
     background: url('../static/drew-graham-PVyhz0wmHdo-unsplash.jpg');
     background-attachment: scroll;
-    background-position: bottom center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -177,6 +162,33 @@ img[alt ="Swiggy"]{
 img[alt ="Park Avenue"]{
     width: 40%;
     height: 30%;
+}
+
+@media(max-width:768px) {
+    .toggle {
+        display: block;
+    }
+
+    #xyz {
+        flex-direction: column;
+        display: none;
+    }
+
+    #navbar ul li {
+        display: block;
+        text-align: center;
+    }
+    #introsection::before {
+        height: 50vh;
+    }
+    
+    #introsection::after {
+        height: 50vh;
+    }
+    
+    #introsection {
+        height: 50vh;
+    }
 }
 
 body::-webkit-scrollbar {
